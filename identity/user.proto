@@ -2,9 +2,7 @@ syntax = "proto3";
 
 package identity;
 
-import "common.proto";
 import "google/protobuf/empty.proto";
-import "google/protobuf/timestamp.proto";
 import "google/api/annotations.proto";
 
 service UserService {
